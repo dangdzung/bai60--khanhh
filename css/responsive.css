@@ -1,0 +1,104 @@
+/* Set the viewport width to device width and initial scale to 1.0 */
+@media screen and (max-width: 1200px) {
+    .inner-item {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/* Add a media query for screens smaller than 768px */
+@media screen and (max-width: 767px) {
+    /* Adjust the layout and styling for smaller screens */
+    .header {
+        height: 500px;
+    }
+    .mySlides {
+        width: 100%;
+        height: auto;
+    }
+    .container {
+        width: 100%;
+    }
+    .inner-wrap {
+        flex-direction: column;
+    }
+    .inner-img,
+    .inner-content {
+        width: 100%;
+    }
+    .inner-img-container {
+        height: 300px;
+    }
+    .inner-img img {
+        height: 100%;
+    }
+    .inner-content {
+        padding: 20px;
+    }
+    .inner-list {
+        flex-wrap: wrap;
+    }
+    .inner-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .inner-img {
+        width: 100%;
+    }
+    .inner-img img {
+        height: 200px;
+        object-fit: cover;
+    }
+    .section-service {
+        padding: 20px 0;
+    }
+    .section-form {
+        padding: 20px 0;
+    }
+    .inner-left {
+        width: 100%;
+    }
+    input,
+    textarea {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .button {
+        width: 100%;
+        text-align: center;
+    }
+    .section-two {
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        height: 500px;
+    }
+    .section-one .inner-wrap .inner-content {
+        width: 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .section-one .inner-wrap .inner-img img {
+        border-radius: 15px;
+        left: 20px;
+        bottom: 20px;
+    }
+    .section-one .inner-wrap .inner-img {
+        width: 100%;
+        margin-top: 200px;
+    }
+    .section-two .containey .item {
+        width: 100%;
+    }
+    .section-two .containey .item img {
+        width: 100%;
+    }
+    .section-form .inner-wrap .inner-left{
+        width: 94%;
+    }
+    .the-icon .icon-20{
+        margin-bottom: 10px;
+    }
+}

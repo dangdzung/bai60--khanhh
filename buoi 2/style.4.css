@@ -1,0 +1,55 @@
+body{
+    font-family: Roboto,serif;
+}
+.header{
+    width: 560px;
+    height: 560px;
+    margin: auto;
+}
+.tieude{
+    color: rgb(19, 151, 151);
+}
+h3{
+    background-color: rgb(66, 189, 189);
+}
+p{
+    text-align: justify;
+}
+.content1{
+    width: 560px;
+    height: 430px;
+    background-color:rgb(194, 186, 186)
+}
+.image{
+    width: 90%;
+    margin-left: 25px;
+}
+.text1{
+    text-align: center;
+    color: rgb(66, 68, 189);
+}
+.image2{
+    width: 90%;
+    margin-left: 25px;
+}
+.text2{
+    text-align: center;
+    color: rgb(66, 68, 189);
+}
+.content2{
+    width: 560px;
+    height: 390px;
+    background-color:rgb(194, 186, 186)
+}
+.text3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.list{
+    color: gray;
+    cursor: pointer;
+}
+.list:hover{
+    color: rgb(228, 228, 19);
+}
