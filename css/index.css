@@ -727,3 +727,43 @@ header .fa-bars {
 .the-icon .inner-wrap a:hover i {
     color: blue;
 }
+.sweet-alert {
+    position: fixed;
+    top: 100px;
+    right: 10px;
+    max-width: 450px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 8.2) 8px 7px 29px 0px;
+    display: flex;
+    align-items: center;
+    transform: translateX(150%);
+    transition: transform 0.25s linear;
+    animation: sweet 1s linear 1;
+    background-color: #fff;
+}
+.sweet-icon {
+    width: 40px;
+    height: 40px;
+    background-color: #07a787;
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    /* margin-right: 20px; */
+    flex-shrink: 0;
+    text-align: center;
+    line-height: 40px;
+}
+.sweet-text {
+    margin-left: 20px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+@keyframes sweet {
+    20%,
+    100% {
+        transform: translateX(0);
+    }
+}
